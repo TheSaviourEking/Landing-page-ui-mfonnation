@@ -24,6 +24,9 @@
         /* aspect-ratio: 9/16; */
     }
 
+    .call-to-input{
+        font-size: 1.5em;
+        }
     .card-info{
         font-size: 1.5vw;
     }
