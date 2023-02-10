@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;500&display=swap'); */
+
 @import url(desktop.css);
 @import url(tablet.css);
 @import url(mobile.css);
@@ -13,7 +15,8 @@
 body{
     background-color: #fff;
     width: 100%;
-    position: relative
+    position: relative;
+    /* font-family: 'Unbounded', cursive; */
     /* padding-top: 60px; */
 }
 
@@ -257,7 +260,7 @@ img{
     place-items: center;
     gap: 1rem;
     text-align: center;
-    font-size: 1em;
+    /* font-size: 1em; */
     /* background-color: blue; */
 }
 
@@ -285,9 +288,7 @@ img{
     border-radius: 5px;
   }
 
-  .call-to-input{
-    font-size: 1.5rem;
-    }
+  
 
     .footer{
         grid-area: 8/1/9/-1;
