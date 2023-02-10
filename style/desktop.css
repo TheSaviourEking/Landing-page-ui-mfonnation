@@ -1,0 +1,65 @@
+@media (min-width: 992px){
+    .toggle{
+        display: flex;
+    }
+
+    .toggleMenu{
+        display: none;
+    }
+
+    .main-text{
+        /* display: flex; */
+        align-content: center;
+        width: 50%;
+        font-size: 2em;
+        /* justify-content: center; */
+    }
+
+    .shop-now{
+        font-size: 1.788rem;
+        padding: 3rem 0;
+    }
+    .card{
+        height: 70vh;
+        /* aspect-ratio: 9/16; */
+    }
+
+    .card-info{
+        font-size: 1.5vw;
+    }
+
+    .promotions{
+        align-items: center;
+        gap: 1rem;
+    }
+    .promotions-image{
+        width: 60%;
+        height: 90%;
+    }
+
+    .arrival-catalogue{
+        height: fit-content;
+    }
+
+    .app-wrapper{
+        display: flex;
+    }
+
+    .heading{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .promotions-image img {
+        max-height: 40rem;
+        object-position: top center;
+        border-radius: 1rem
+    }
+    .app-promotions-image img {
+        max-height: 40rem
+    }
+    
+    .mobile{
+        display: none;
+    }
+}

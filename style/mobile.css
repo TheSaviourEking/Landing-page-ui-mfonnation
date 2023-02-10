@@ -1,0 +1,104 @@
+@media (max-width: 700px){
+    .toggle{
+        display: none;
+    }
+
+    .toggleMenu{
+        display: block;
+    }
+
+    .hero{
+        height: fit-content;
+    }
+    main{
+        flex-direction: column-reverse;
+    }
+
+    .main-text{
+        padding:  0 1rem;
+        gap: 1rem;
+        background-color: #fff;
+    }
+
+    .main-photo img, .promotions-image img{
+        object-fit: cover;
+        object-position: top center;
+    }
+
+    .sputnik{
+        display: none;
+    }
+    .col{
+        flex-direction: column;
+    }
+
+    .card-info{
+        font-size: 1.5rem;
+    }
+
+    .promotions{
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+
+    .app-wrapper{
+        /* display: block;
+        margin: 0 auto; */
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promotions-image,
+    .app-promotions-image{
+        /* height: 25rem; */
+        max-height: 50%;
+        min-height: 50%;
+    }
+
+    .app-promotions-text{
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+    }
+
+    .heading{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    footer{
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    .brand-footer{
+        align-items: center;
+    }
+
+    .footer-details{
+        align-items: stretch;
+    }
+
+    .app-promotions-image img{
+        height: 100%;
+    }
+    .app-promotions-image{
+        height: 10%;
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .desktop{
+        display: none;
+    }
+    
+      
+}
