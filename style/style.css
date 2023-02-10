@@ -313,13 +313,12 @@ img{
     }
 
     .brand-footer{
-        gap: 1rem;
+        gap: 1rem;   
     }
 
     .footer-icons{
         gap: 1rem;
         display: flex;
-        justify-content: space-between;
     }
     .footer-links{
         gap: 1rem;
