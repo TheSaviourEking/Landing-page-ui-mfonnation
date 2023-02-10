@@ -99,6 +99,10 @@
     .desktop{
         display: none;
     }
+
+    .footer-icons{
+        justify-content: space-around;
+    }
     
       
 }
