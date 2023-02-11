@@ -1,9 +1,32 @@
 @media (min-width: 701px) and (max-width: 991px) {
     .toggle{
-        display: flex;
+        display: none;
     }
 
     .toggleMenu{
-        display: none;
+        display: inline-block;
+    }
+
+    .promotions{
+        align-items: center
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .brand-footer{
+        align-items: center;
+    }
+
+    .sputnik{
+        width: 3rem;;
+    }
+
+    .call-to-input{
+        font-size: 1rem;
+        opacity: 0.5;
     }
 }

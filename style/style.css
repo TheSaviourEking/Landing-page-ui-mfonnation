@@ -68,7 +68,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     font-size: 1.2em;
-    padding: 1rem 0.5rem;
+    /* padding: 1rem 0.5rem; */
+    padding: 1rem;
     width: 100%;
     margin: 0 auto;
     position: fixed;
@@ -268,7 +269,11 @@ img{
     display: flex;
     padding: 10px;
     border-radius: 5px;
-    width: 20rem;
+    /* width: 20rem; */
+    width: 100%;
+    min-width: 1rem;
+    max-width: 25rem;
+    margin: 0 auto;
   }
   
   input[type="email"] {
@@ -325,7 +330,6 @@ img{
     }
     .footer-details{
         gap: 1rem;
-        width: 50%;
         justify-content: space-between;
     }
 
@@ -358,13 +362,4 @@ img{
 
     .terms-conditions{
         font-weight: bold;
-    }
-    
-/* 
-
-    flex-direction: row;
-    gap: 1rem;
-    align-self: baseline;
-     */
-
-     
+    }   
