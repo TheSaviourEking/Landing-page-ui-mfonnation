@@ -87,7 +87,7 @@
 
     .card-wrapper{
         display: flex;
-        width: fit-content;
+        /* width: fit-content; */
         /* width: 100%; */
         /* min-height: 50rem; */
         /* background-color: black; */
@@ -95,6 +95,10 @@
         justify-content: space-between;
         margin: 0 auto;
         gap: 1rem;
+    }
+
+    .card{
+        width: 100%;
     }
 
     .young-catalogue-image{

@@ -363,3 +363,7 @@ img{
     .terms-conditions{
         font-weight: bold;
     }   
+
+    .copy-right *{
+        color: #fff !important;
+    }
