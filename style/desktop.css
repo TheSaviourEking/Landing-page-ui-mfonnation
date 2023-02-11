@@ -24,6 +24,9 @@
         /* aspect-ratio: 9/16; */
     }
 
+    .call-to-input{
+        font-size: 1.5em;
+        }
     .card-info{
         font-size: 1.5vw;
     }
@@ -61,5 +64,51 @@
     
     .mobile{
         display: none;
+    }
+
+    .footer-icons{
+        gap: 1rem;
+        display: flex;
+        /* justify-content: space-around; */
+    }
+
+    .footer-details{
+        width: 50%;
+    }
+
+    .promotions-text p{
+        font-size: 1.2rem;
+    }
+
+    .call-to-input{
+        /* font-size: 1rem; */
+        opacity: 0.5;
+    }
+
+    .card-wrapper{
+        display: flex;
+        /* width: fit-content; */
+        /* width: 100%; */
+        /* min-height: 50rem; */
+        /* background-color: black; */
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        gap: 1rem;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .young-catalogue-image{
+        width: 100%;
+        margin: auto 1rem;
+        /* min-height: 50rem; */
+    }
+
+    .young-catalogue-image img{
+        object-fit: cover;
+        /* object-position: top center; */
     }
 }

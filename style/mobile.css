@@ -64,7 +64,7 @@
     }
 
     .heading{
-        font-size: 1.5rem;
+        /* font-size: 1.5rem; */
         font-weight: bold;
     }
 
@@ -99,6 +99,14 @@
     .desktop{
         display: none;
     }
-    
+
+    .footer-icons{
+        justify-content: space-around;
+    }
+
+    .call-to-input{
+        font-size: 1rem;
+        opacity: 0.5;
+    }
       
 }
