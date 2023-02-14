@@ -95,12 +95,16 @@ nav a{
 
 nav a:hover{
     text-decoration: underline;
+    /* outline: 1px red solid; */
 }
 .hero{
     grid-area: 1/1/2/-1;
     width: 100%;
 }
-
+.logo :hover{
+    text-decoration: none;
+    outline: none;
+}
 .logo{
     align-items: center;
     font-size: 1.3em;
@@ -148,6 +152,7 @@ img{
 .toggleMenu{
     width: 5vw;
 }
+
 
 .customers{
     background-color: #ead86b;
