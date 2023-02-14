@@ -39,7 +39,6 @@ body{
 }
 .cta{
     display: inline-block;
-    /* background: linear-gradient(to right, #E5E5E5, #333); */
     background: linear-gradient(to right, #303030, #000000);
     color: #fff;
     padding: 1rem 2rem;
@@ -49,6 +48,7 @@ body{
 }
 
 .cta:hover{
+    padding: 1rem 2rem ;
     text-decoration: none;
     background: linear-gradient(to right, #000000, #232323);
 }
@@ -68,7 +68,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     font-size: 1.2em;
-    /* padding: 1rem 0.5rem; */
     padding: 1rem;
     width: 100%;
     margin: 0 auto;
@@ -91,13 +90,13 @@ nav ul{
 nav a{
     text-decoration: none;
     color: black;
-    /* background-color: beige; */
-    /* padding: 1rem 0.5rem; */
 }
 
 nav a:hover{
     /* text-decoration: underline; */
-    outline: 1px red solid;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    padding: 0.5rem 0;
 }
 
 
@@ -108,6 +107,7 @@ nav a:hover{
 .logo :hover{
     text-decoration: none;
     outline: none;
+    border: none;
 }
 .logo{
     align-items: center;
@@ -205,9 +205,20 @@ img{
     align-content: center;
 }
 
+.card:hover{
+    transform:scale(1.05);
+    transition: all 1s ease-in-out;
+
+    /* background-color: black; */
+}
+
 .card-pointer{
     /* height: 6vh; */
     height: 3em;
+}
+.card-pointer:hover{
+    transform: rotateZ(-0.1turn);
+    transition: all 1s ease-in-out;
 }
 
 .explore-now{
